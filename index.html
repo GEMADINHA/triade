@@ -170,11 +170,21 @@ textarea{resize:vertical;min-height:80px}
 <script>
 /* ===== COLE AQUI A CONFIGURAÇÃO DO SEU FIREBASE =====
    Deixe null para usar o modo local (só neste navegador). */
-const FIREBASE_CONFIG = null;
-/* Exemplo:
-const FIREBASE_CONFIG = { apiKey:"...", authDomain:"...", projectId:"...", appId:"..." };
-*/
+const FIREBASE_CONFIG = {
 
+  apiKey: "AIzaSyC7zy6R99Z5UCii3PVdrdPpus-rQv0vDwM",
+
+  authDomain: "triade-5270f.firebaseapp.com",
+
+  projectId: "triade-5270f",
+
+  storageBucket: "triade-5270f.firebasestorage.app",
+
+  messagingSenderId: "295662896487",
+
+  appId: "1:295662896487:web:a624f95416062fc3bd5bc2"
+};
+  
 const $ = s => document.querySelector(s);
 const SUBJ = [['Física','⚛️'],['Química','🧪'],['Biologia','🧬'],['Matemática','📐'],['Português','📖'],['Literatura','✒️'],['Redação','✍️'],['História','🏛️'],['Geografia','🌎'],['Inglês','🔤'],['Filosofia','🧠'],['Sociologia','👥'],['Artes','🎨'],['Educação Física','⚽']];
 const KIND = {agenda:'📅', conteudo:'📚', notas:'📝'};
